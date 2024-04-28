@@ -83,7 +83,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #404bbf;
+    color:  #2E2F42;
     padding-top: 24px;
     padding-bottom: 24px;
     transition-property: color;
@@ -314,10 +314,21 @@ img {
 .team-menu-title {
     text-align: center;
     margin-bottom: 8px;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
 
 .team-menu-text {
     text-align: center;
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
 }
 
 .team-title-text-container {
@@ -396,7 +407,6 @@ img {
 
 .portfolio-menu-item:hover {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background-color: #5D3FD3;
 }
 
 .portfolio-menu-item:hover .portfolio-cover-text {
@@ -414,6 +424,11 @@ img {
 
 .portfolio-menu-title {
     margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .portfolio-name-container {
@@ -529,7 +544,7 @@ img {
 }
 
 .social-wrap {
-    margin-right: 120px;
+    margin-right: auto;
 }
 
 .form-tittle {
@@ -589,6 +604,12 @@ img {
     color: #fff;
 }
 
+.footer-btn:hover,
+.footer-btn:focus {
+    background-color:#404BBF
+}
+
+
 .footer-btn-icon {
     margin-left: 16px;
     fill: #fff;
@@ -633,7 +654,7 @@ img {
 
 .is-open .backdrop,
 .is-open .model {
-    display: block;
+    display: none;
 }
 
 .model-btn-close {
